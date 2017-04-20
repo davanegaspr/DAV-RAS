@@ -5,37 +5,65 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" href="views/lib/bootstrap/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="stylesheets/Style.css">
 	</head>
 
 	<body>
 		<header>
 			<div class="container">
-
+				<h1>DAV-RAS</h1>
 			</div>
+
+			<div id=contenedor-fijo>
+				<div class="col1">
+					<div id=menu>
+						<ul>
+							<a href="bbs_somos.html">
+								<li>Quiénes somos</li>
+							</a>
+							<a href="bbs_productos.html">
+	              <li>Productos</li>
+	            </a>
+							<a href="bbs_servicios.html">
+	            	<li>Servicios</li>
+							</a>
+	            <a href="bbs_casos_exito.html">
+	            	<li>Casos de Éxito</li>
+	            </a>
+	            <a href="bbs_contactenos.html">
+	            	<li>Contáctenos</li>
+	            </a>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+
+			<form class="" action="index.html" method="post">
+				<input type="text" id="User" placeholder="Ingrese usuario">
+				<input type="text" id="Password" placeholder="Ingrese la contraseña">
+			</form>
+
 		</header>
-		<div id=contenedor-fijo>
-			<div class="col1">
-				<div id=menu>
-					<ul>
-						<a href="bbs_somos.html">
-							<li>Quiénes somos</li>
-						</a>
-						<a href="bbs_productos.html">
-              <li>Productos</li>
-            </a>
-						<a href="bbs_servicios.html">
-            	<li>Servicios</li>
-						</a>
-            <a href="bbs_casos_exito.html">
-            	<li>Casos de Éxito</li>
-            </a>
-            <a href="bbs_contactenos.html">
-            	<li>Contáctenos</li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </div>
+		<div class="container">
+			<section class="main row">
+				<article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+					<p>
+						Aca va el cuadro con las imagenes cambiantes.
+					</p>
+				</article>
+				<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+					<p>
+						Aca va la descripción de la imagen que se esta mostrando en el cuadro(banner).
+					</p>
+				</aside>
+			</section>
+		</div>
+		<footer>
+			<div class="container">
+			<h6>Ronald Sarmiento & Diego Vanegas</h6>
+			</div>
+		</footer>
+
 		<script src="views/lib/jquery/jquery-1.12.2.min.js"></script>
 		<script src="views/lib/bootstrap/js/bootstrap.min.js"></script>
 	</body>
