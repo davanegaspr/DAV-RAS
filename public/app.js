@@ -5,9 +5,9 @@ var express = require("express");
 var app = express();
 //app.set("view engine", "jade");
 
-
+app.use(express.static('../public'));
 app.get("/",function(req,res){
-res.sendFile("index.html",{root: __dirname+"/../"});
+res.sendFile("index.html",{root: __dirname+"/"});
 });
 
 app.listen(9090);
