@@ -4,8 +4,9 @@
   "description": "simple helloWorldApp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: Not test specified \" && exit 1"
-  },
+    "start": "npm run lite ",
+    "lite": "lite-server"
+},
   "author": "roasarmientoga",
   "license": "ISC",
   "dependencies": {
@@ -13,5 +14,8 @@
     "jade": "^1.11.0",
     "jasmine-node": "^1.14.5",
     "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.0"
   }
 }
